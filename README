@@ -1,0 +1,27 @@
+Image/Magick/BarChart version 0.01
+==================================
+
+Extension to Image::Magick to allow easy creation of simple bar charts. For information on how to use this module, please see 'perldoc Image::Magick::BarChart'. For examples of its use, see files in the examples/ subdirectory.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Image::Magick > 6.0.1
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2004 Alexander Christian Westholm
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
+

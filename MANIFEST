@@ -1,0 +1,8 @@
+BarChart.pm
+BarChart/Bar.pm
+Changes
+Makefile.PL
+MANIFEST
+README
+examples/ebolaOutbreaks.pl
+examples/racialCrimes93.pl

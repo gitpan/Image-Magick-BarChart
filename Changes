@@ -1,0 +1,6 @@
+Revision history for Perl extension Image::Magick::BarChart.
+
+0.01  Sat May 29 22:57:11 2004
+	- original version; created by h2xs 1.22 with options
+		-AX -n Image::Magick::BarChart
+
