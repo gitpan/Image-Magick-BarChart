@@ -10,7 +10,7 @@ my $imgHandle	= new Image::Magick(size => "100x200");
 $imgHandle->Read('xc:white');
 my $font = '@'.shift;
 die "USAGE: racialCrimes93.pl <font.ttf>" if($font eq '@');
-my $crimeGraph	= new BarChart(
+my $crimeGraph	= new Image::Magick::BarChart(
 	debug		=>	1,
 	barSize		=>	15,
 	interval	=>	25,

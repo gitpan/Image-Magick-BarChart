@@ -159,7 +159,7 @@ modify it under the same terms as Perl itself.
 
 =cut
 
-package BarChart;
+package Image::Magick::BarChart;
 use strict;
 use warnings;
 use vars qw[$AUTOLOAD];
@@ -195,7 +195,7 @@ sub addBar {
 	# to create a new one
 	if(not ref $params[0]){
 		push @params, (maximum => $me->{maximum}) if $me->{maximum};
-		$barObj = new Bar(@params);
+		$barObj = new Image::Magick::BarChart::Bar(@params);
 	}else{
 		$barObj = $params[0];
 	}

@@ -104,7 +104,7 @@ modify it under the same terms as Perl itself.
 
 =cut
 
-package Bar;
+package Image::Magick::BarChart::Bar;
 
 use strict;
 use warnings;

@@ -10,7 +10,7 @@ my $imgHandle = new Image::Magick(size=>"305x250");
 $imgHandle->Read("xc:white");
 my $font = '@'.shift;
 die "USAGE: wedNightColors.pl <font.ttf>" if($font eq '@');
-my $sailGraph = new BarChart(
+my $sailGraph = new Image::Magick::BarChart(
 	debug		=>	1,
 	vertical	=>	1,
 	sort		=>	sub { return @{+shift}},

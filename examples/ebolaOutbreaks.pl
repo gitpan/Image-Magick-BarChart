@@ -10,7 +10,7 @@ my $imgHandle = new Image::Magick(size => "450x250");
 $imgHandle->Read("xc:white");
 my $font = '@'.shift;
 die "USAGE: ebolaOutbreaks.pl <font.ttf>" if($font eq '@');
-my $ebolaGraph = new BarChart(
+my $ebolaGraph = new Image::Magick::BarChart(
 	startX		=>	5,
 	startY		=>	245,
 	barSize		=>	15,
